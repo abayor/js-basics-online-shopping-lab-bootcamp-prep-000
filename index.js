@@ -13,6 +13,7 @@ function setCart(c) {
   return cart;
 }
 
+
 function addToCart(item) {
  // write your code here
  
