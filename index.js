@@ -1,4 +1,8 @@
-var cart = [];
+var cart = [
+  
+  
+  
+  ];
 
 function getCart() {
  return cart;
@@ -10,18 +14,14 @@ function setCart(c) {
 }
 
 function addToCart(item) {
-  
-   item = [{
-   itemName: '',
-   itemPrice: ''
-   }];
-   
-  item.itemPrice= Math.floor(Math.random()*100);
-   if(item.itemName!==""){
-     return itemName has been added to your cart
-   }
-   
  // write your code here
+ 
+ const price = Math.floor(Math.random() * 100)
+ cart.push({ [item]: price })
+
+  console.log(`${item} has been added to your cart.`)
+
+  return cart
 }
 
 function viewCart() {
